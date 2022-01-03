@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<remote name="fluent"
+          fetch="https://github.com/FluentOS-Project"
+          revision="samurai" />
+
+<manifest>
+<project path="vendor/fluent" name="vendor_fluent" remote="samurai" />
+</manifest>
