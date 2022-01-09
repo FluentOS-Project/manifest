@@ -10,7 +10,7 @@
   <!-- Framework repos -->
 
   <!-- General repos -->
-  <project path="vendor/fluent" name="vendor_fluent" remote="fluent" />
+  <project path="vendor/fluent" name="vendor_fluent" remote="fluent" revision="samurai-gsi" />
   <project path="build/make" name="build" remote="fluent">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
